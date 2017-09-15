@@ -1,0 +1,47 @@
+/** {
+	border: 1px solid;
+}*/
+
+/* Mobile */
+
+body {
+	text-align: center;
+}
+h1 {
+	font-size: 80px;
+}
+img {
+	width: 100%;
+}
+p {
+	color: azure;
+	background-color: #aaa;
+}
+ul {
+	text-align: left;
+}
+
+/*Desktop*/
+@media (min-width: 1025px) {
+
+body {
+	font-size: 30px;
+	background-color: #FC0;
+}
+img {
+	width: 50%;
+	float: left;
+}
+p {
+	margin: 0 10%;
+}
+ul {
+	margin-left: 20%;
+}
+.info {
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+
+}
